@@ -18,13 +18,6 @@ export default function UpdateDashboard() {
         uploadFile
     } = useAuth();
 
-    // const onFileChange = async (e) => {
-    //     const file = e.target.files[0];
-    //     const storageRef = storage.ref();
-    //     const fileRef = storageRef.child(file.name);
-    //     await fileRef.put(file);
-    // }
-
     function handleSubmit(e) {
         e.preventDefault();
 

@@ -21,10 +21,6 @@ function login(email, password) {
     return auth.signInWithEmailAndPassword(email, password);
 }
 
-function googleLogin(email, password) {
-    return auth.Goog(email, password);
-}
-
 function logout() {
     return auth.signOut();
 }
